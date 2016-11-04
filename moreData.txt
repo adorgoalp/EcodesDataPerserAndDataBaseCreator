@@ -1,0 +1,89 @@
+E927b Carbamide [Improving agent] halal
+
+E928 Benzole peroxide [Improving agent] ?
+
+E938 Argon [Packaging gas] halal
+
+E939 Helium [Packaging gas] halal
+
+E941 Nitrogen [Packaging gas] halal
+
+E942 Nitrous oxide [Propellant] halal
+
+E948 Oxygen [Packaging gas] halal
+
+E950 Acesulfame K [Sweetener] halal
+
+E951 Aspartame [Sweetener] halal
+
+E952 Cyclamic acid and its Na and Ca salts [Sweetener] halal
+
+E953 Isomalt [Sweetener] halal
+
+E954 Saccharin and its Na, K and Ca salts [Sweetener] halal
+
+E957 Thaumatin [Sweetener] [Flavour enhancer] halal
+
+E959 Neohesperidine DC [Sweetener] halal
+
+E965 Maltitol (i) Maltitol (ii) Maltitol syrup [Sweetener] [Stabiliser] [Humectant] halal
+
+E966 Lactitol [Sweetener] [animal origin] halal
+
+E967 Xylitol [Sweetener] halal
+
+E999 Quillaia extract [Foaming Agent] halal
+
+E1103 Invertase [Stabiliser] halal
+
+E1105 Lysozyme [Preservative] haram
+
+E1200 Polydextrose [Stabiliser] [Thickening agent] [Humectant] [Carrier] halal
+
+E1201 Polyvinylpyrrolidone [Stabiliser] halal
+
+E1202 Polyvinylpolypyrrolidone [Carrier] [Stabiliser] halal
+
+E1400 Dextrin [Stabiliser] [Thickening agent] halal
+
+E1401 Modified starch [Stabiliser] [Thickening agent] ?
+
+E1402 Alkaline modified starch [Stabiliser] [Thickening agent] halal
+
+E1403 Bleached starch [Stabiliser] [Thickening agent] ?
+
+E1404 Oxidized starch [Emulsifier] [Thickening agent] halal
+
+E1410 Monostarch phosphate [Stabiliser] [Thickening agent] halal
+
+E1412 Distarch phosphate [Stabiliser] [Thickening agent] halal
+
+E1413 Phosphated distarch phosphate [Stabiliser] [Thickening agent] halal
+
+E1414 Acetylated distarch phosphate [Emulsifier] [Thickening agent] halal
+
+E1420 Acetylated starch, mono starch acetate [Stabiliser] [Thickening agent] halal
+
+E1421 Acetylated starch, mono starch acetate [Stabiliser] [Thickening agent] ?
+
+E1422 Acetylated distarch adipate [Stabiliser] [Thickening agent] halal
+
+E1430 Distarch glycerine [Stabiliser] [Thickening agent] ?
+
+E1440 Hydroxy propyl starch [Emulsifier] [Thickening agent] halal
+
+E1441 Hydroxy propyl distarch glycerine [Stabiliser] [Thickening agent] ?
+
+E1442 Hydroxy propyl distarch phosphate [Stabiliser] [Thickening agent] halal
+
+E1450 Starch sodium octenyl succinate [Emulsifier] [Stabiliser] [Thickening agent] halal
+
+E1451 Acetylated oxidised starch [Emulsifier] [Thickening agent] ?
+
+E1505 Triethyl citrate [Foam Stabiliser] halal
+
+E1510 Ethanon [] ?
+
+E1518 Glyceryl triacetate (triacetin) [Humectant] mushbooh
+
+E1520 Propylene glycol [Humectant] ?

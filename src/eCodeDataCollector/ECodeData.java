@@ -5,6 +5,7 @@ public class ECodeData {
 	private String name;
 	private String description;
 	private String halalStatus;
+	
 
 	public ECodeData(String code, String name, String description, String halalStatus) {
 		this.code = code;
@@ -36,5 +37,9 @@ public class ECodeData {
 	public void setHalalStatus(String halalStatus) {
 		this.halalStatus = halalStatus;
 	}
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return code;
+	}
 }

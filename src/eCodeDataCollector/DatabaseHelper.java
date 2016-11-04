@@ -38,11 +38,13 @@ public class DatabaseHelper {
 	}
 
 	public static void createECodeInfoTable() {
+		String sqlDrop = "DROP TABLE IF EXISTS E_CODE_INFO;";
 		// SQL statement for creating a new table
-		String sql = "CREATE TABLE IF NOT EXISTS E_CODE_INFO (" + "code text PRIMARY KEY," + "name text NOT NULL,"
-				+ "description text NOT NULL," + "halalStatus text NOT NULL);";
+		String sql = "CREATE TABLE IF NOT EXISTS E_CODE_INFO (" + "code text PRIMARY KEY," + "name text,"
+				+ "description text," + "halalStatus text);";
 
 		try (Connection conn = DriverManager.getConnection(url); Statement stmt = conn.createStatement()) {
+			// stmt.executeQuery(sqlDrop);
 			stmt.execute(sql);
 			System.out.println("Table created");
 		} catch (SQLException e) {
@@ -52,21 +54,29 @@ public class DatabaseHelper {
 
 	public void insertAll(ArrayList<ECodeData> data) throws SQLException {
 		connect();
+		int i = 1;
 		for (ECodeData eCodeData : data) {
 			insert(eCodeData);
+			System.out.println(i++);
 		}
 		System.out.println("Inserted all data");
 		connection.close();
 	}
 
-	private void insert(ECodeData eCodeData) throws SQLException {
-		String sql = "INSERT INTO E_CODE_INFO(code,name,description,halalStatus) VALUES(?,?,?,?)";
-		PreparedStatement preparedStatement = connection.prepareStatement(sql);
-		preparedStatement.setString(1, eCodeData.getCode());
-		preparedStatement.setString(2, eCodeData.getName());
-		preparedStatement.setString(3, eCodeData.getDescription());
-		preparedStatement.setString(4, eCodeData.getHalalStatus());
-		preparedStatement.executeUpdate();
+	private void insert(ECodeData eCodeData) {
+		try {
+			String sql = "INSERT INTO E_CODE_INFO(code,name,description,halalStatus) VALUES(?,?,?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, eCodeData.getCode());
+			preparedStatement.setString(2, eCodeData.getName());
+			preparedStatement.setString(3, eCodeData.getDescription());
+			preparedStatement.setString(4, eCodeData.getHalalStatus());
+			preparedStatement.executeUpdate();
+			preparedStatement.clearBatch();
+			preparedStatement.clearParameters();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 
 	}
 }
